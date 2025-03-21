@@ -113,11 +113,11 @@ npm run build
 - Form state management with Formik
 - Helpful error messages for invalid inputs
 
-## Custom Hooks
+### Custom Hooks
 
 The application uses several custom hooks to manage state and functionality:
 
-### `useTasks`:
+#### `useTasks`:
 
 - Task state management
 - Task filtering
@@ -125,11 +125,11 @@ The application uses several custom hooks to manage state and functionality:
 - CRUD operations with recursive handling for nested tasks
 - Error handling with toast notifications
 
-### `useTasks`:
+#### `usePagination`:
 
 - Handles pagination for any list of items
 
-## Recursive Task Handling
+### Recursive Task Handling
 
 The application implements recursive functions to handle the nested nature of tasks and subtasks
 
@@ -140,6 +140,8 @@ The application implements recursive functions to handle the nested nature of ta
 3. **TypeScript**: Strong typing for props, state, and API responses
 4. **Form Validation**: Client-side validation with Yup schemas
 5. **Responsive Design**: User-friendly UI using TailwindCSS
+6. **ESLint & Prettier**: Used to enforce a consistent code style
+7. **Module Aliases (@)**: Used for cleaner and shorter imports
 
 ## License
 
